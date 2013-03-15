@@ -4,5 +4,11 @@
  */
 
 public class REgDespController {
-
+        
+    public REgDespController(){
+        
+    }
+    
+    public void RegDespesa(double valor, String descricao){
+    }
 }

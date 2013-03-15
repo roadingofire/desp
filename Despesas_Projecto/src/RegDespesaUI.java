@@ -5,4 +5,13 @@
 
 public class RegDespesaUI {
 
+    public RegDespesaUI() {
+    }
+    
+    public void introduzDados(double valor, String descricao){
+    }
+    
+    public boolean dadosValidados(){
+        return true;
+    }
 }
