@@ -4,11 +4,15 @@
  */
 
 public class REgDespController {
-        
-    public REgDespController(){
-        
+    private Despesa d;
+    
+    public REgDespController(int valor, String desc){
+        d = new Despesa(valor, desc);
+        System.out.println("asdasd");
     }
     
-    public void RegDespesa(double valor, String descricao){
+    public Despesa getDespesa() {
+        return d;
     }
+
 }
